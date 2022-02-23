@@ -1,6 +1,7 @@
 
 
 # To convert a decimal value to binary, returning it in a list form
+# n = 6 is used here as this program will be using Base64 encoding
 def decToBin(x, n = 6):
     binary = []
     while (x > 0):
